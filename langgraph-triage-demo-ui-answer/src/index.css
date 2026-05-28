@@ -1,0 +1,36 @@
+/* Plain CSS (no Tailwind) to keep the demo's setup minimal. */
+
+:root {
+  --cream: #fbf7ef;
+  --cream-50: #fefcf8;
+  --cream-200: #f5eddc;
+  --ink: #0f1b2d;
+  --ink-soft: #2a3548;
+  --ink-mute: #5b6577;
+  --gold: #b8893b;
+  --gold-deep: #8c661f;
+  --emerald: #047857;
+  --red: #b91c1c;
+  --amber: #b45309;
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  color: var(--ink-soft);
+  background: var(--cream);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
+
+code,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}

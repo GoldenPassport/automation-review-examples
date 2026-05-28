@@ -6,9 +6,10 @@ Each review on the blog has a hands-on demo tab that walks through building some
 
 ## What is in the repo
 
-| Folder | Review | Status |
-| --- | --- | --- |
-| [`langgraph-triage-demo-answer/`](./langgraph-triage-demo-answer) | [Automation Review: LangGraph](https://goldenpassport.blog/blog/automation-review-langgraph) | Live |
+| Folder | Review | What it is | Status |
+| --- | --- | --- | --- |
+| [`langgraph-triage-demo-answer/`](./langgraph-triage-demo-answer) | [Automation Review: LangGraph](https://goldenpassport.blog/blog/automation-review-langgraph) | CLI version, mock model calls, Steps 1–8 | Live |
+| [`langgraph-triage-demo-ui-answer/`](./langgraph-triage-demo-ui-answer) | [Automation Review: LangGraph](https://goldenpassport.blog/blog/automation-review-langgraph) | React + Vite UI, real Ollama model calls, Step 9 | Live |
 
 More folders will land here as the review series grows.
 
