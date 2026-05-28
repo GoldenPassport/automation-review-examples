@@ -1,0 +1,20 @@
+{
+  "name": "langgraph-triage-demo-answer",
+  "version": "1.0.0",
+  "description": "Final-state code for the LangGraph document-intake triage demo from goldenpassport.blog/automation-review-langgraph-demo. Use this to compare against your own follow-along output, or as a starting point for a real triage agent.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tsx src/main.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "@langchain/langgraph": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "pnpm@10.29.2+sha512.bef43fa759d91fd2da4b319a5a0d13ef7a45bb985a3d7342058470f9d2051a3ba8674e629672654686ef9443ad13a82da2beb9eeb3e0221c87b8154fff9d74b8"
+}
